@@ -33,7 +33,7 @@ def main():
             move_x+=2 
         else:
             move_x-=1
-        kk_rct.move_ip(move_x,move_y)
+        
         x=-(tmr%3200)
         screen.blit(bg_img,[x,0])
         screen.blit(bg_img2,[x+1600,0])
